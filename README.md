@@ -2,13 +2,13 @@
 
 PADS logic symbols and PCB packages
 ====
-Mentor Graphics® PADS® is a suite of EDA software pruduced by Mentor Graphics®, You can design a schematic by PADS logic and PCB by PADS Layout/Router. Before that we should design the logic symbols and PCB packages first, that sounds a little trouble.<br>  
+PADS® is a suite of EDA software pruduced by Mentor Graphics®, you can design a schematic by PADS® logic and PCB by PADS® Layout/Router. Before that we should design the component logic symbols and PCB packages first, that sounds a little trouble.<br>  
 So, in order to focus on the schematic and PCB design, I creat this project to make it more faster and convenient.<br>  
 
 PCB:printed circuit board <br>  
 SMD:Surface Mounted Device <br>  
 SMT:Surface Mounted Technology <br>  
-LS:logic symbol, some of time we call it component symbol <br>  
+LS:logic symbol, some of time we also call it component symbol <br>  
 
 ##Basic Rules
 ==
@@ -45,5 +45,5 @@ GSM/GPRS A9/A9G Module<br>
 SMD56-120P1920N: 28-pad, 2-gnd-pad, 19.2mm x 18.8mm x 2.7mm body, Lead Pitch 1.2mm Surface Mounted Device Package<br>
 
 
-Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "www.mirocast.com").<br>
+Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "www.mirocast.com"). Enjoy the fun of making!<br>
 
