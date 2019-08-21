@@ -35,10 +35,15 @@ ATmega328P-MMHR    28M1:28-pad, 4 x 4 x 1.0 body, Lead Pitch 0.45mm Quad Flat No
 ATmega328P-MU    32M1-A:32-pad, 5 x 5 x 1.0 body, Lead Pitch 0.50mm Quad Flat No-Lead/Micro Lead Frame Package (QFN/MLF)<br>  
 ATmega328P-MUR    32M1-A:32-pad, 5 x 5 x 1.0 body, Lead Pitch 0.50mm Quad Flat No-Lead/Micro Lead Frame Package (QFN/MLF)<br>  
 ATmega328P-PU    28P3:28-lead, 0.300” Wide, Plastic Dual Inline Package (PDIP)<br>  
-<br>  
+<br>
+
 ##About PCB package Name<br>  
 ATmega328P-MMH	28M1:28-pad, 4 x 4 x 1.0 body, Lead Pitch 0.45mm Quad Flat No-Lead/Micro Lead Frame Package (QFN/MLF)<br>  
-we call it QFN28-45P400N, that means it a QFN package, 28-pad, Lead Pitch 0.45mm(0.45=45/100), the max of body is 4mm(4=400/100)<br> 
+we call it QFN28-45P400N in OpenPADSLibraries, that means it a QFN package, 28-pad, Lead Pitch 0.45mm(0.45=45/100), the max length of body is 4mm(4=400/100), Narrow body<br>
+
+GSM/GPRS A9/A9G Module<br>
+SMD56-120P1920N: 28-pad, 2-gnd-pad, 19.2mm x 18.8mm x 2.7mm body, Lead Pitch 1.2mm Surface Mounted Device Package<br>
+
 
 Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "www.mirocast.com").<br>
 
