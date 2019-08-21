@@ -15,9 +15,9 @@ LS:logic symbol, some of time we call it component symbol <br>
 >>A certain component may have several logic symbols but only one PCB package.<br>  
 >>A certain PCB package may have many components and logic symbols.<br> 
 <br>
-https://github.com/Mirocast/OpenPADSLibraries/raw/master/M1_SIM800L/SIM800L-LogicSymbol.png
+![](https://github.com/Mirocast/OpenPADSLibraries/raw/master/M1_SIM800L/SIM800L-LogicSymbol.png）
 <br>
-https://github.com/Mirocast/OpenPADSLibraries/raw/master/M1_SIM800L/SIM800L-PCBPackage.png
+![](https://github.com/Mirocast/OpenPADSLibraries/raw/master/M1_SIM800L/SIM800L-PCBPackage.png）
 <br>
 Note:<br>  
 A serial may have several logic symbol and different PCB package, such as ATMEL® ATMEGA328 Serial, a certain suffix identify a certain component.<br> 
@@ -42,5 +42,5 @@ ATmega328P-PU    28P3:28-lead, 0.300” Wide, Plastic Dual Inline Package (PDIP)
 ATmega328P-MMH	28M1:28-pad, 4 x 4 x 1.0 body, Lead Pitch 0.45mm Quad Flat No-Lead/Micro Lead Frame Package (QFN/MLF)<br>  
 we call it QFN28-45P400N, that means it a QFN package, 28-pad, Lead Pitch 0.45mm(0.45=45/100), the max of body is 4mm(4=400/100)<br> 
 
-Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "悬停显示").<br>
+Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "www.mirocast.com").<br>
 
