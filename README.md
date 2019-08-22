@@ -8,7 +8,9 @@ So, in order to focus on the schematic and PCB design, I creat this project to m
 PCB:printed circuit board <br>  
 SMD:Surface Mounted Device <br>  
 SMT:Surface Mounted Technology <br>  
-LS:logic symbol, some of time we also call it component symbol <br>  
+LS:logic symbol, some of time we also call it component symbol <br>
+IC:Integrated Chip<br>
+
 
 ##Basic Rules
 ==
@@ -41,9 +43,15 @@ ATmega328P-PU    28P3:28-lead, 0.300” Wide, Plastic Dual Inline Package (PDIP)
 ATmega328P-MMH	28M1:28-pad, 4 x 4 x 1.0 body, Lead Pitch 0.45mm Quad Flat No-Lead/Micro Lead Frame Package (QFN/MLF)<br>  
 we call it QFN28-45P400N in OpenPADSLibraries, that means it a QFN package, 28-pad, Lead Pitch 0.45mm(0.45=45/100), the max length of body is 4mm(4=400/100), Narrow body<br>
 
-GSM/GPRS A9/A9G Module<br>
+##Example
+==
+M1_A9/A9G GSM/GPRS Module<br>
 SMD56-120P1920N: 28-pad, 2-gnd-pad, 19.2mm x 18.8mm x 2.7mm body, Lead Pitch 1.2mm Surface Mounted Device Package<br>
 
+IC1_ICM-20602 6-Axis(3-axis gyroscope, 3-axis accelerometer) motion tracker IC<br>
+LGA16-50P300N： 16-pad,  3mm x 3mm x 0.75mm body, Lead Pitch 0.5mm LGA Package<br>
 
-Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "www.mirocast.com"). Enjoy the fun of making!<br>
+
+Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "www.mirocast.com").<br>
+`Enjoy the fun of making!`<br>
 
