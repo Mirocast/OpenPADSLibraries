@@ -5,12 +5,13 @@ PADS logic symbols and PCB packages
 PADS® is a suite of EDA software pruduced by Mentor Graphics®, you can design a schematic by PADS® logic and PCB by PADS® Layout/Router. Before that we should design the component logic symbols and PCB packages first, that sounds a little trouble.<br>  
 So, in order to focus on the schematic and PCB design, I creat this project to make it more faster and convenient.<br>  
 
+Some abbrs in this project:
 PCB:printed circuit board <br>  
 SMD:Surface Mounted Device <br>  
 SMT:Surface Mounted Technology <br>  
-LS:logic symbol, some of time we also call it component symbol <br>
-IC:Integrated Chip<br>
-
+LS:logic symbol, some of time we also call it component symbol or device symbol <br>
+IC:Integrated Chip <br>
+DS:Data Sheet <br>
 
 ##Basic Rules
 ==
@@ -45,13 +46,21 @@ we call it QFN28-45P400N in OpenPADSLibraries, that means it a QFN package, 28-p
 
 ##Example
 ==
-M1_A9/A9G GSM/GPRS Module<br>
+M1_A9/A9G<br>
+GSM/GPRS Module<br>
 SMD56-120P1920N: 28-pad, 2-gnd-pad, 19.2mm x 18.8mm x 2.7mm body, Lead Pitch 1.2mm Surface Mounted Device Package<br>
 
-IC1_ICM-20602 6-Axis(3-axis gyroscope, 3-axis accelerometer) motion tracker IC<br>
+IC1_ICM-20602<br>
+6-Axis(3-axis gyroscope, 3-axis accelerometer) motion tracker IC<br>
 LGA16-50P300N： 16-pad,  3mm x 3mm x 0.75mm body, Lead Pitch 0.5mm LGA Package<br>
 
+IC2_ICM-20948<br>
+9-Axis(3-axis gyroscope, 3-axis accelerometer, 3-axis compass)  and a Digital Motion Processor™ (DMP™).<br>
+QFN25-40P300N： 25-pad, 1-thermal-pad, 3mm x 3mm x 0.9mm body, Lead Pitch 0.4mm QFN Package.<br>
 
-Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries "www.mirocast.com").<br>
+Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries 
+"www.mirocast.com").<br>
+<br>
 `Enjoy the fun of making!`<br>
+==
 
