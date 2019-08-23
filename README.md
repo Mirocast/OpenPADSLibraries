@@ -5,9 +5,11 @@ PADS logic symbols and PCB packages
 PADS® is a suite of EDA software pruduced by Mentor Graphics®, you can design a schematic by PADS® logic and PCB by PADS® Layout/Router. Before that we should design the component logic symbols and PCB packages first, that sounds a little trouble.<br>  
 So, in order to focus on the schematic and PCB design, I creat this project to make it more faster and convenient.<br>  
 
-Some abbrs in this project:
-PCB:printed circuit board <br>  
-SMD:Surface Mounted Device <br>  
+Some abbrs in this project:<br>
+PCB:printed circuit board <br>
+PCBA:PCB Assembly<br>
+SMD:Surface Mounted Device <br>
+DIP:dual inline-pin package <br>
 SMT:Surface Mounted Technology <br>  
 LS:logic symbol, some of time we also call it component symbol or device symbol <br>
 IC:Integrated Chip <br>
@@ -16,7 +18,9 @@ DS:Data Sheet <br>
 ##Basic Rules
 ==
 >>A certain component may have several logic symbols but only one PCB package.<br>  
->>A certain PCB package may have many components and logic symbols.<br> 
+>>A certain PCB package may have many components and logic symbols.<br>
+>>For some common components, a logic symbol may have many PCB packages, such as resistance, capacitance, inductance and so on.<br>
+
 <br>
 ![image](https://github.com/Mirocast/OpenPADSLibraries/raw/master/M1_SIM800L/SIM800L-LogicSymbol.jpg)<br>
 ![image](https://github.com/Mirocast/OpenPADSLibraries/raw/master/M1_SIM800L/SIM800L-PCBPackage.png)<br>
@@ -44,6 +48,8 @@ ATmega328P-PU    28P3:28-lead, 0.300” Wide, Plastic Dual Inline Package (PDIP)
 ATmega328P-MMH	28M1:28-pad, 4 x 4 x 1.0 body, Lead Pitch 0.45mm Quad Flat No-Lead/Micro Lead Frame Package (QFN/MLF)<br>  
 we call it QFN28-45P400N in OpenPADSLibraries, that means it a QFN package, 28-pad, Lead Pitch 0.45mm(0.45=45/100), the max length of body is 4mm(4=400/100), Narrow body<br>
 
+If a component have no certain package name in DS, we often name it SMD or DIP simply. If I made some mistakes, please send email to me.<br>
+
 ##Example
 ==
 M1_A9/A9G<br>
@@ -58,9 +64,14 @@ IC2_ICM-20948<br>
 9-Axis(3-axis gyroscope, 3-axis accelerometer, 3-axis compass)  and a Digital Motion Processor™ (DMP™).<br>
 QFN25-40P300N： 25-pad, 1-thermal-pad, 3mm x 3mm x 0.9mm body, Lead Pitch 0.4mm QFN Package.<br>
 
-Take your design from concept to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries 
+D1_1N4148<br>
+  A type of diode.
+DO-35, SMA, SOD-123, SMA(DO-214AC), SMB(DO-214AA)
+
+Take your design from conception to creation with [`OpenPADSLibraries`](https://github.com/Mirocast/OpenPADSLibraries 
 "www.mirocast.com").<br>
 <br>
-`Enjoy the fun of making!`<br>
 ==
+`Enjoy the fun of making!`<br>
+
 
