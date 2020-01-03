@@ -8,9 +8,14 @@ So, in order to focus on the schematic and PCB design, I creat this project to m
 Some abbrs in this project:<br>
 PCB:printed circuit board <br>
 PCBA:PCB Assembly<br>
-SMD:Surface Mounted Device <br>
-DIP:dual inline-pin package <br>
-SMT:Surface Mounted Technology <br>  
+SMT:Surface Mounted Technology <br>
+SMD:Surface Mounted Devices <br>
+THT:Through Hole Technology <br>
+THD:Through Hole Devices <br>
+
+NPTH:Non PLATING Through Hole <br>
+PTH: PLATING Through Hole <br>
+DIP:Dual Inline-pin Package <br>
 LS:logic symbol, some of time we also call it component symbol or device symbol <br>
 IC:Integrated Chip <br>
 DS:Data Sheet <br>
