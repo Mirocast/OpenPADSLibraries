@@ -2,7 +2,7 @@
 
 PADS logic symbols and PCB packages
 ====
-PADS® is a suite of EDA software pruduced by Mentor Graphics®, you can design a schematic by PADS® logic and PCB by PADS® Layout/Router. Before that we should design the component logic symbols and PCB packages first, that sounds a little trouble.<br>  
+Personal Automated Design Solutions (be short for PADS®) is a suite of EDA software pruduced by Mentor Graphics®, you can design a schematic by PADS® logic and PCB by PADS® Layout/Router. Before that we should design the component logic symbols and PCB packages first, that sounds a little trouble.<br>  
 So, in order to focus on the schematic and PCB design, I creat this project to make it more faster and convenient.<br>  
 
 Some abbrs in this project:<br>
